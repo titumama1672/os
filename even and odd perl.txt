@@ -1,0 +1,18 @@
+#!/bin/perl
+use strict;
+print "Enter the limit: ";
+my $limit = <STDIN>;
+chomp ($limit);
+print "Even Numbers: \n";
+for (my $i=0; $i<=$limit; $i++){
+   if ($i % 2 == 0){
+         print "$i";
+      }
+   }
+print "\n Odd Numbers: \n";
+for (my $i=0; $i<=$limit; $i++){
+    if ($i % 2!==0){
+         print " $i " ;
+        }
+   }
+print "\n";
