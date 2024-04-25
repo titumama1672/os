@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Enter first string:"
+read "S1"
+echo "Enter second string:"
+read "S2"
+if[ "$S1 == $S2" ]
+then
+echo "String1 and String2 are same in length"
+else
+echo "String 1 and String2 are not equal in length"
+fi

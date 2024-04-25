@@ -1,0 +1,16 @@
+# pattern
+*
+**
+***
+****
+*****
+
+# code
+#!/bin/bash
+rows= 20
+for ((i=1; i<=rows; i++))
+do
+echo -n "*"
+done
+echo
+done 

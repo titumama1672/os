@@ -1,0 +1,22 @@
+#user/bin/awk-f
+Echo "How many number of terms to be generated?"
+Read n
+Function fib
+{
+x=0
+y=1
+i=2
+echo "Fibonacci series upto $n terms:"
+echo "$x"
+echo "$y"
+while[$i -lt $n]
+do
+i= 'expr $i+1'
+i= 'expr $x+$y'
+echo "$z"
+x=$y
+y=$z
+done
+}
+r='fib $n'
+echo "$r"

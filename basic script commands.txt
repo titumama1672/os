@@ -1,0 +1,6 @@
+nano filename.sh(create)
+cat filename.sh(view)
+chmod +x filename.sh(change mod)
+ctrl=^
+./filename.sh(execute)
+#!/bin/bash(beginning of every file)
